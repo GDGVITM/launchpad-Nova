@@ -7,7 +7,7 @@
 
 > Transforming education through personalized AI-powered learning experiences
 
-🎬 **[See Live Demo & Screenshots](#-screenshots--demo)** | 🚀 **[Try the Platform](https://teslearn.com)**
+🎬 **[See Live Demo & Screenshots](#-screenshots--demo)** | 
 
 ---
 
@@ -34,7 +34,7 @@ TesLearn.com is a **validated** AI-powered educational platform that transforms 
 
 ### 🎪 What Makes Us Different
 
-- **AI-Generated Video Lessons**: Transform any topic into engaging, animated educational content using MANIM
+- **AI-Generated Video Lessons**: Transform any topic into engaging, animated educational content using **Manim** (Mathematical Animation Engine)
 - **Virtual Labs**: Interactive simulations for hands-on learning without physical constraints  
 - **Adaptive Quizzes**: Smart assessments that evolve with student progress
 - **Personalized AI Tutoring**: 24/7 intelligent assistance tailored to individual learning styles
@@ -83,12 +83,36 @@ TesLearn provides a **comprehensive AI-powered educational ecosystem** that adap
 ## ✨ Key Features
 
 ### AI-Generated Video Lessons
-Transform any academic topic into **dynamic, visually stunning video lessons**
+Transform any academic topic into **dynamic, visually stunning video lessons** using **Manim (Mathematical Animation Engine)**
 - **10-minute explanation videos** for complex concepts
-- **Animated visualizations** for better comprehension
-- **Multiple language support**
+- **Animated visualizations** powered by Manim for mathematical precision
+- **Multiple language support** with professional narration
 
 *Cost: Only ₹5 per 10-minute video - 90% cheaper than traditional content creation*
+
+#### 🎬 **Sample Video Examples** (Generated with Manim)
+
+1. **[Linear Regression Analysis](docs/videos/linear_regression_complete.mp4)** 📊
+   - Statistical modeling with animated data visualization
+   - Real-time regression line fitting and error analysis
+   
+2. **[Integration Techniques](docs/videos/integration_complete_v4.mp4)** ∫
+   - Step-by-step animated calculus derivations
+   - Geometric interpretation of definite integrals
+   
+3. **[Wave-Particle Duality](docs/videos/wave_particle_duality_complete.mp4)** 🌊
+   - Quantum physics concepts with dynamic wave animations
+   - Photon behavior visualization and interference patterns
+   
+4. **[Plain Carbon Steel Properties](docs/videos/plain_carbon_steel_complete.mp4)** ⚙️
+   - Materials science with molecular structure animations
+   - Crystal lattice formations and mechanical properties
+   
+5. **[PN Junction Diode](docs/videos/pn_junction_diode_complete.mp4)** ⚡
+   - Electronics fundamentals with animated electron flow
+   - Semiconductor physics and current-voltage characteristics
+
+> **🎥 All videos available in `docs/videos/` folder - Professional quality Manim animations**
 
 ### 🧪 Virtual Science Labs
 **"Learn by doing"** through interactive simulations
@@ -123,7 +147,8 @@ Upload textbooks, papers, and materials for **instant AI analysis**
 Our platform has already attracted **147+ signups from 21 countries** before official launch, proving strong market demand:
 
 <!-- image.png -->
-![User signups from 21 countries before launch](https://i.ibb.co/zh2JTsfC/image.png)
+<img src="https://i.ibb.co/zh2JTsfC/image.png" alt="User signups from 21 countries before launch" width="600"/>
+
 #### 🎯 **Key Validation Metrics**
 - **Organic Growth**: All signups acquired without paid marketing
 - **International Appeal**: 24.5% users outside India
@@ -153,6 +178,7 @@ Our platform has already attracted **147+ signups from 21 countries** before off
 - **Backend**: Django REST Framework
 - **Database**: SQLite (PostgreSQL for production)
 - **Frontend**: React.js (Progressive Web App)
+- **Video Generation**: Manim (Mathematical Animation Engine)
 - **Deployment**: Docker containerization
 
 
