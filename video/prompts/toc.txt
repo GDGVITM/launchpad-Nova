@@ -1,0 +1,20 @@
+create a table of content to study the concept easily, from simple to complex , have 1 topics max and 3 sub topics
+Spend more time on the core, and less time on the advanced topics
+
+return in json format
+
+{
+    "topics": [
+        {
+            "title": "topic 1",
+            "subtopics": [
+                "subtopic 1",
+                "subtopic 2",
+                "subtopic 3",
+                "subtopic 4"
+            ]
+        }
+    ]
+}
+
+return only the json format, no other text or comments

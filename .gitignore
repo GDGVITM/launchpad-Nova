@@ -1,0 +1,15 @@
+documents/
+media/
+__pycache__/
+.env
+.DS_Store
+.vscode/
+.idea/
+.pytest_cache/
+.coverage
+.coverage.*
+.coverage.xml
+generated_videos/
+generated_animations/
+media_output/
+generated_code/
