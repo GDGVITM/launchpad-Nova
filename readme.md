@@ -92,23 +92,23 @@ Transform any academic topic into **dynamic, visually stunning video lessons** u
 
 #### 🎬 **Sample Video Examples** (Generated with Manim)
 
-1. **[Linear Regression Analysis](docs/videos/linear_regression_complete.mp4)** 📊
+1. **[Linear Regression Analysis](https://drive.google.com/file/d/1XcnBCgz2zj4-vogNQCkoX5JF_lT34_v_/view?usp=sharing)** 📊
    - Statistical modeling with animated data visualization
    - Real-time regression line fitting and error analysis
    
-2. **[Integration Techniques](docs/videos/integration_complete_v4.mp4)** ∫
+2. **[Integration Techniques](https://drive.google.com/file/d/1k_QQ80jUT_6or97hwy0xot1FKxqPfCjg/view?usp=sharing)** ∫
    - Step-by-step animated calculus derivations
    - Geometric interpretation of definite integrals
    
-3. **[Wave-Particle Duality](docs/videos/wave_particle_duality_complete.mp4)** 🌊
+3. **[Wave-Particle Duality](https://drive.google.com/file/d/1Vfy3_dQvYu7MPJ_3vLiyS7L-CubVSyPI/view?usp=sharing)** 🌊
    - Quantum physics concepts with dynamic wave animations
    - Photon behavior visualization and interference patterns
    
-4. **[Plain Carbon Steel Properties](docs/videos/plain_carbon_steel_complete.mp4)** ⚙️
+4. **[Plain Carbon Steel Properties](https://drive.google.com/file/d/17py58TbZsxr1S9LzOV39FcVTNgZo1wPO/view?usp=sharing)** ⚙️
    - Materials science with molecular structure animations
    - Crystal lattice formations and mechanical properties
    
-5. **[PN Junction Diode](docs/videos/pn_junction_diode_complete.mp4)** ⚡
+5. **[PN Junction Diode](https://drive.google.com/file/d/10PUUGrSNJLlzGuEFVCGNHktvGqcPDA7-/view?usp=sharing)** ⚡
    - Electronics fundamentals with animated electron flow
    - Semiconductor physics and current-voltage characteristics
 
