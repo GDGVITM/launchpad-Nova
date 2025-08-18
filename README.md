@@ -281,7 +281,7 @@ Our platform has already attracted **147+ signups from 21 countries** before off
 ## 🎬 Screenshots & Demo
 
 ### 🎥 Video Demonstrations
-- **Product Demo**: [Link to demo video]
+- **Product Demo**: [Watch the demo video](https://drive.google.com/file/d/1B5eQUPcc_PhzumCSliA5gByMtdSgqjmy/view?usp=drivesdk)
 
 ---
 
