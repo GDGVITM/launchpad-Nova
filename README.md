@@ -7,7 +7,7 @@
 
 > Transforming education through personalized AI-powered learning experiences
 
-🎬 **[See Live Demo & Screenshots](#-screenshots--demo)** | 🚀 **[Try the Platform](https://teslearn.com)**
+🎬 **[See Live Demo & Screenshots](#-screenshots--demo)** | 
 
 ---
 
@@ -123,7 +123,7 @@ Upload textbooks, papers, and materials for **instant AI analysis**
 Our platform has already attracted **147+ signups from 21 countries** before official launch, proving strong market demand:
 
 <!-- image.png -->
-![User signups from 21 countries before launch](https://i.ibb.co/zh2JTsfC/image.png)
+<img src="https://i.ibb.co/zh2JTsfC/image.png" alt="User signups from 21 countries before launch" width="600"/>
 #### 🎯 **Key Validation Metrics**
 - **Organic Growth**: All signups acquired without paid marketing
 - **International Appeal**: 24.5% users outside India
