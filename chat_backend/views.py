@@ -561,7 +561,7 @@ Return a JSON object with this structure:
                     {"role": "system", "content": "You are a quiz generation assistant. Always return valid JSON."},
                     {"role": "user", "content": quiz_prompt}
                 ],
-                model=settings.MODEL,
+                model=settings.GROQ_MODEL,
                 temperature=0.7,
                 max_tokens=3000
             )

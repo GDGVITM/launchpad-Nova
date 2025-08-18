@@ -239,7 +239,7 @@ def generate_streaming_assistant_response(
         messages = []
         
         # Build enhanced system message
-        system_message = settings.SYSTEM_PROMPT
+        system_message = settings.CHAT_SYSTEM_PROMPT
         
         if memory_context:
             system_message += f"\n\n### Previous Learning Context:\n{memory_context}\n\nUse this context to personalize your responses and build upon previous interactions."
@@ -268,7 +268,7 @@ def generate_streaming_assistant_response(
         # Generate streaming response using Groq
         stream = groq_client.chat.completions.create(
             messages=messages,
-            model=settings.MODEL,
+            model=settings.GROQ_MODEL,
             temperature=temperature,
             max_completion_tokens=max_tokens,
             stream=True,
@@ -292,7 +292,7 @@ def generate_streaming_assistant_response(
         
         # Extract and save memory if applicable
         try:
-            memory_data = extract_memory(query, full_response, groq_client, settings.MODEL)
+            memory_data = extract_memory(query, full_response, groq_client, settings.GROQ_MODEL)
             if memory_data.get("save", False):
                 memory_text = memory_data.get("memory", "")
                 if memory_text:
@@ -307,7 +307,7 @@ def generate_streaming_assistant_response(
         
         # Extract and save goals if applicable
         try:
-            goals_data = extract_goals(query, full_response, groq_client, settings.MODEL)
+            goals_data = extract_goals(query, full_response, groq_client, settings.GROQ_MODEL)
             if goals_data.get("save", False):
                 goals_list = goals_data.get("goals", [])
                 for goal_data in goals_list:
@@ -372,7 +372,7 @@ result = generate_assistant_response(
     query="What is machine learning?",
     session_id=1,
     groq_client=groq_client,
-    MODEL=settings.MODEL,
+    MODEL=settings.GROQ_MODEL,
     SYSTEM_PROMPT=settings.SYSTEM_PROMPT
 )
 
@@ -395,7 +395,7 @@ for chunk_data in generate_streaming_assistant_response(
     query="Explain neural networks",
     session_id=1,
     groq_client=groq_client,
-    MODEL=settings.MODEL,
+    MODEL=settings.GROQ_MODEL,
     SYSTEM_PROMPT=settings.SYSTEM_PROMPT
 ):
     if not chunk_data.get("done", False):
