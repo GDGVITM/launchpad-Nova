@@ -124,6 +124,7 @@ Our platform has already attracted **147+ signups from 21 countries** before off
 
 <!-- image.png -->
 <img src="https://i.ibb.co/zh2JTsfC/image.png" alt="User signups from 21 countries before launch" width="600"/>
+
 #### 🎯 **Key Validation Metrics**
 - **Organic Growth**: All signups acquired without paid marketing
 - **International Appeal**: 24.5% users outside India
